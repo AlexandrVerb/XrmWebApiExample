@@ -1,6 +1,6 @@
 ﻿declare namespace Crm {
     export namespace EntityDefinitions {
-        export interface BaseEntityDefinitionRead {
+        export interface BaseEntityRead {
             "statecode@OData.Community.Display.V1.FormattedValue": string;
             statecode: number;
             "statuscode@OData.Community.Display.V1.FormattedValue": string;

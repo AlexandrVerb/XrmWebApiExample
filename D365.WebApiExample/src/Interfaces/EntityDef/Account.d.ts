@@ -1,6 +1,6 @@
 ﻿declare namespace Crm {
     export namespace EntityDefinitions {
-        export interface AccountRead extends BaseEntityDefinitionRead {
+        export interface AccountRead extends BaseEntityRead {
             name: string;
         }
 
