@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "outDir": "./build",
+    "rootDir": "./src/",
+    "noImplicitAny": false,
+    "noEmitOnError": true,
+    "removeComments": false,
+    "sourceMap": false,
+    "target": "es5",
+    "module": "none"
+  },
+  "exclude": [
+    "node_modules",
+    "wwwroot"
+  ]
+}
