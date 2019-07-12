@@ -88,6 +88,7 @@
   <ItemGroup>
     <TypeScriptCompile Include="src\Account.ts" />
     <TypeScriptCompile Include="src\Const\Entities\Account.d.ts" />
+    <TypeScriptCompile Include="src\Const\OptionSets\RelationshipType.d.ts" />
     <TypeScriptCompile Include="src\CRUD.ts" />
     <TypeScriptCompile Include="src\Interfaces\EntityDef\Account.d.ts" />
     <TypeScriptCompile Include="src\Interfaces\EntityDef\BaseEntityRead.d.ts" />

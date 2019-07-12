@@ -1,5 +1,5 @@
-﻿import EntDif = Crm.EntityDefinitions;
-import Entities = Const.Entities;
+﻿import Entities = Const.Entities;
+import EntDif = Crm.EntityDefinitions;
 
 class CRUD {
 
@@ -18,7 +18,7 @@ class CRUD {
         return this.retrieveRecord(Entities.Account.EntityLogicalName, recordId, fields);
     }
 
-    static createAccountRecord(account: EntDif.AccountCreate) {
+    static createAccountRecord(account: EntDif.Account) {
         return this.createRecord(Entities.Account.EntityLogicalName, account);
     }
 }
